@@ -22,5 +22,6 @@ module.exports = function (wallaby) {
     testFramework: 'mocha',
     setup: () => {
     },
+    workers: { recycle: true }
   };
 };
